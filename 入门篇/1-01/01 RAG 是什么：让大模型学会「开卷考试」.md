@@ -1,6 +1,6 @@
 ---
 title: RAG 是什么：让大模型学会「开卷考试」
-cover: D:/project/all-in-rag-main/wechat/1-01/images/cover.png
+cover: ./images/cover.png
 author: 墨问手记
 ---
 
@@ -14,7 +14,7 @@ author: 墨问手记
 
 RAG，做的就是这件事——**让大模型学会开卷考试**。
 
-![开卷考试：大模型也可以带着资料作答](D:/project/all-in-rag-main/wechat/1-01/images/01-open-book-exam.png)
+![开卷考试：大模型也可以带着资料作答](./images/01-open-book-exam.png)
 
 *图1｜RAG 的核心隐喻：不再死记硬背，而是先查资料再作答*
 
@@ -57,7 +57,7 @@ RAG 的价值，就是把这两种知识接到一起用。
 
 理解 RAG，先分清两份「记忆」。
 
-![参数化知识 vs 外部知识库](D:/project/all-in-rag-main/wechat/1-01/images/02-two-kinds-of-knowledge.png)
+![参数化知识 vs 外部知识库](./images/02-two-kinds-of-knowledge.png)
 
 *图2｜左边是模型权重里的固化记忆，右边是可随时更新的外部知识*
 
@@ -78,7 +78,7 @@ RAG 的工作方式很朴素：
 
 先记住一个高阶流程即可：
 
-![RAG 流程：提问 → 检索 → 生成](D:/project/all-in-rag-main/wechat/1-01/images/03-rag-pipeline.png)
+![RAG 流程：提问 → 检索 → 生成](./images/03-rag-pipeline.png)
 
 *图3｜用户提问后，先检索相关片段，再交给大模型生成有据的回答*
 
